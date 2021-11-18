@@ -1,5 +1,5 @@
 {
-  "name": "ExpressJS-master",
+  "name": "expressjs",
   "version": "1.0.0",
   "description": "Today we will be building the back and front end for a [simple recipes app](https://recipes-spring.herokuapp.com).",
   "main": "server.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soapmoore/ExpressJS-master.git"
+    "url": "git+https://github.com/DannyBoyNYC/ExpressJS.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/soapmoore/ExpressJS-master/issues"
+    "url": "https://github.com/DannyBoyNYC/ExpressJS/issues"
   },
-  "homepage": "https://github.com/soapmoore/ExpressJS-master#readme",
+  "homepage": "https://github.com/DannyBoyNYC/ExpressJS#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.13"

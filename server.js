@@ -52,6 +52,10 @@ app.get("/api/import", (req, res) => {
       description:
         "A Hamburger (often called a burger) is a type of sandwich in the form of  rounded bread sliced in half with its center filled with a patty which is usually ground beef, then topped with vegetables such as lettuce, tomatoes and onions.",
       image: "hamburger.png",
+    },
+    function (err) {
+      if (err) return console.log(err);
+      return res.sendStatus(201);
     }
   );
 });
