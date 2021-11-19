@@ -13,7 +13,7 @@ mongoose
   .then(() => console.log("MongoDb connected"))
   .catch((err) => console.log(err));
 
-app.use(express.static("public"));
+app.use(express.static("static"));
 app.use(express.json({ extended: false }));
 app.use(express.urlencoded({ extended: false }));
 
